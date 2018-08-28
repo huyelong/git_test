@@ -9,6 +9,7 @@ int main(){
     return 0;
 }
 void swap(int &ref_a,int &ref_b){
+    cout<<"swap function"<<endl;
     int temp = a;
     a = b;
     b = temp
